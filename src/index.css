@@ -3,33 +3,5 @@ body {
   margin: 0;
   box-shadow: border-box;
   font-family: 'Montserrat', sans-serif;
-}
-
-label {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 1px;
-}
-
-label span {
-  margin-bottom: .3em;
-  font-weight: bold;
-  text-align: left;
-  padding: .8em;
-}
-
-input {
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 1px solid #ccc;
-  background-color: tranparent;
-  padding: .8em;
-}
-
-input:focus {
-  outline: none;
-}
-
-input::placeholder {
-  color: #aaa;
+  background-image: url('./assets/images/travel.jpg')
 }

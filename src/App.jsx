@@ -1,5 +1,5 @@
 import Register from './components/Register/Register'
-import Destinations from './components/Destinations/Destinations'
+import Destination from './components/Destinations/Destination'
 
 import './App.css'
 
@@ -12,7 +12,7 @@ function App() {
           <Register />
         </div>
         <div>
-          <Destinations />
+          <Destination />
         </div>
       </div>
       <button>Enviar</button>
