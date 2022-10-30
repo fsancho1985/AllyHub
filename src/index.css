@@ -3,5 +3,7 @@ body {
   margin: 0;
   box-shadow: border-box;
   font-family: 'Montserrat', sans-serif;
-  background-image: url('./assets/images/travel.jpg')
+  background-image: url('./assets/images/travel.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }

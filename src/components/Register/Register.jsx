@@ -24,12 +24,14 @@ function Register() {
       <Box
         component="form"
         sx={{
-          '& > :not(style)': { m: 2, width: '50ch' }
+          '& > :not(style)': { m: 2, width: 500 , boxShadow: 3}, 
+          "& input":{fontWeight:'bold'}
         }}
-        Validate
+        noValidate
         autoComplete="off"
       >
         <TextField
+          fontWeight="bold"
           id="outlined-basic"
           label="Name"
           variant="outlined"
@@ -67,50 +69,6 @@ function Register() {
         />
       </Box>
     </div>
-
-    // <div>
-    //   <h2>Dados Pessoais</h2>
-    //   <form className={styles.form}>
-    //     <label htmlFor="">
-    //       <span>Name</span>
-    //     </label>
-    //     <label htmlFor="">
-    //       <input
-    //         type="text"
-    //         name="displayName"
-    //         required
-    //         placeholder="Type your name"
-    //       />
-    //     </label>
-    //     <label htmlFor="">
-    //       <span>E-mail</span>
-    //       <input
-    //         type="email"
-    //         name="displayEmail"
-    //         required
-    //         placeholder="Type your e-mail"
-    //       />
-    //     </label>
-    //     <label htmlFor="">
-    //       <span>Telefone</span>
-    //       <input
-    //         type="number"
-    //         name="displayTelefone"
-    //         required
-    //         placeholder="Type your phone number"
-    //       />
-    //     </label>
-    //     <label htmlFor="">
-    //       <span>CPF</span>
-    //       <input
-    //         type="number"
-    //         name="displayCPF"
-    //         required
-    //         placeholder="Type your CPF"
-    //       />
-    //     </label>
-    //   </form>
-    // </div>
   )
 }
 

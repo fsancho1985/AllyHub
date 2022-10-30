@@ -1,8 +1,9 @@
 .container {
   width: 600px;
-  margin: 100px 10px 25px 10px;
+  height: 432px;
+  margin: 50px 10px 25px 10px;
   padding: 5px;
-  background: rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.15);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(13.5px);
   -webkit-backdrop-filter: blur(13.5px);
