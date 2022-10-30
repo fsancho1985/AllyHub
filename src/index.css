@@ -4,6 +4,6 @@ body {
   box-shadow: border-box;
   font-family: 'Montserrat', sans-serif;
   background-image: url('./assets/images/travel.jpg');
-  background-size: cover;
+  background-size: 100vw 100vh;
   background-repeat: no-repeat;
 }

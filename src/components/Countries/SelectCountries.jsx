@@ -32,7 +32,7 @@ function SelectCountries({ uf, setUf }) {
       options={countriesOptions}
       isMulti={true}
       components={animatedComponents}
-      closeMenuOnSelect={false}
+      closeMenuOnSelect={true}
       placeholder="Selecione um país"
       onChange={handleSelectedCountry}
       value={uf}
