@@ -6,9 +6,9 @@ Este projeto visa demonstrar as habilidades em programação, especificamente no
 
 Foram utilizados neste projeto:
 
-Material UI
-React Select
-React Number Format
+Material UI -
+React Select -
+React Number Format -
 
 # Getting Started with Create React App
 
