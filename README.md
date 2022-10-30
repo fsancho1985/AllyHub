@@ -1,3 +1,15 @@
+# Main Project Goals
+
+Este projeto visa demonstrar as habilidades em programação, especificamente no desenvolvimento Web Front-End.
+
+# Libs and Frameworks
+
+Foram utilizados neste projeto:
+
+Material UI -
+React Select -
+React Number Format -
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
