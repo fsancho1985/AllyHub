@@ -3,9 +3,7 @@ import React, { useState } from 'react'
 import SelectCountries from '../Countries/SelectCountries'
 import SelectCities from '../Cities/SelectCities'
 
-
 import styles from './Destination.module.css'
-
 
 function Destination() {
 
